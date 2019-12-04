@@ -66,6 +66,20 @@
        <td><a href ="#">view details</a></td> 
     </tr>
 
+    <tr>
+      <th scope="row">7</th>
+      <td>Sam</td>
+      <td>Kotobabi</td>
+      <td>sam@gl.uk</td>
+       <td><a href ="#">view details</a></td> 
+    </tr>
+    
+    <tr *ngFor="let client of clients">
+                        <td>{{client.id}}</td>
+                        <td>{{client.name}}</td>
+                        <td>{{client.address}}</td>
+                        <td>{{client.email}}</td>                     
+                        <td><a href ="#">view details</a></td> 
     
   </tbody>
 </table>
