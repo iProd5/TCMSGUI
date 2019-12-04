@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule }    from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -8,6 +9,7 @@ import { ProjectComponent } from './project/project.component';
 import { MainComponent } from './main/main.component';
 import { NewClientComponent } from './new-client/new-client.component';
 import { NewProjectComponent } from './new-project/new-project.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +22,8 @@ import { NewProjectComponent } from './new-project/new-project.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
