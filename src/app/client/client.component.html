@@ -4,21 +4,19 @@
   <table class="table table-striped">
   <thead>
     <tr>
-      <th scope="col">Client ID</th>
       <th scope="col">Name</th>
       <th scope="col">Address</th>
       <th scope="col">Email</th>
-      <th scope="col">Details</th>
+      <th scope="col">Address</th>
     </tr>
   </thead>
   <tbody>
   
     
     <tr *ngFor="let client of client">
-                        <td>{{client.id}}</td>
                         <td>{{client.name}}</td>
                         <td>{{client.phone}}</td>
-                        <td>{{client.email}</td>
+                        <td>{{client.email}}</td>
                         <td>{{client.address}}</td>                     
                         
     
