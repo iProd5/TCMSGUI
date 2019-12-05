@@ -7,6 +7,8 @@ import { AppComponent } from './app.component';
 import { ClientComponent } from './client/client.component';
 import { ProjectComponent } from './project/project.component';
 import { MainComponent } from './main/main.component';
+import { NewclientComponent } from './newclient/newclient.component';
+import { NewprojectComponent } from './newproject/newproject.component';
 
 
 
@@ -16,6 +18,8 @@ import { MainComponent } from './main/main.component';
     ClientComponent,
     ProjectComponent,
     MainComponent,
+    NewclientComponent,
+    NewprojectComponent,
 
   ],
   imports: [
