@@ -9,6 +9,12 @@ import { ProjectComponent } from './project/project.component';
 import { MainComponent } from './main/main.component';
 import { NewClientComponent } from './new-client/new-client.component';
 import { NewProjectComponent } from './new-project/new-project.component';
+import { ClientlinkComponent } from './clientlink/clientlink.component';
+import { ProjectlinkComponent } from './projectlink/projectlink.component';
+import { CustomerFormComponent } from './customer-form/customer-form.component';
+import { NewclientComponent } from './newclient/newclient.component';
+import { ProjectclientComponent } from './projectclient/projectclient.component';
+import { NewprojectComponent } from './newproject/newproject.component';
 
 
 @NgModule({
@@ -18,7 +24,13 @@ import { NewProjectComponent } from './new-project/new-project.component';
     ProjectComponent,
     MainComponent,
     NewClientComponent,
-    NewProjectComponent
+    NewProjectComponent,
+    ClientlinkComponent,
+    ProjectlinkComponent,
+    CustomerFormComponent,
+    NewclientComponent,
+    ProjectclientComponent,
+    NewprojectComponent
   ],
   imports: [
     BrowserModule,
